@@ -203,7 +203,7 @@ function App() {
             ) : (
               <motion.div
                 className="letter-card"
-                initial={{ opacity: 0, y: 18, rotateX: 0 }}
+                initial={{ opacity: 0, y: 0, rotateX: 0 }}
                 animate={{ opacity: 1, y: 0, rotateX: 0 }}
               >
                 <div className="letter-top">💌 a tiny reminder</div>
